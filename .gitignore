@@ -1,0 +1,52 @@
+# Composer dependencies
+/vendor/
+
+# Laravel style config cache
+bootstrap/cache/*.php
+
+# Environment & config
+.env
+.env.local
+.env.*.php
+
+# IDEs & editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+/.phpunit.result.cache
+
+# Logs
+*.log
+logs/
+storage/logs/
+
+# Coverage reports
+coverage/
+
+# Build artifacts
+*.tar.gz
+*.zip
+
+# PHARs or CLI builds
+bin/
+
+# PHPStan / Psalm / PHP-CS-Fixer
+.php-cs-fixer.cache
+phpstan.cache
+psalm-cache/
+
+# Composer PHAR
+composer.phar
+
+# Test artifacts
+tests/output/
+*.zip
